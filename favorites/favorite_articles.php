@@ -6,12 +6,6 @@
 	$stmt->execute();
 	
 	$num = $stmt -> rowCount();
-	
-
-
-
-		
-	
 ?>
 
 <html>
@@ -20,12 +14,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="favorite_styles.css">
+    <link rel="stylesheet" href="../styles/favorite_styles.css">
+	<link rel="icon" href="../icon.png">
 
 	<!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="https://kit.fontawesome.com/6ce008e176.js"></script>
 	<title>Blogga Favorites</title>
+
 </head>
 
 <body>

@@ -8,6 +8,7 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="https://kit.fontawesome.com/6ce008e176.js"></script>
+	<link rel="icon" href="icon.png">
 	<title>Blogga</title>
 </head>
 
@@ -22,42 +23,29 @@
 						<i class="material-icons">menu</i>
 					</a>
 					<ul class="right hide-on-med-and-down">
-						<li>
-							<a href="#home">Home</a>
-						</li>
+						
 						<li>
 							<a href="#search">Search</a>
 						</li>
 						<li>
 							<a href="#popular">Popular Blogs</a>
 						</li>
-						<li>
-							<a href="#random">Random Blogs</a>
-						</li>
-						<li>
-							<a href="#csontact">Contact</a>
-						</li>
+						
+						
 					</ul>
 				</div>
 			</div>
 		</nav>
 	</div>
 	<ul class="sidenav" id="mobile-nav">
-		<li>
-			<a href="#home">Home</a>
-		</li>
+		
 		<li>
 			<a href="#search">Search</a>
 		</li>
 		<li>
 			<a href="#popular">Popular Blogs</a>
 		</li>
-		<li>
-			<a href="#random">Random Blogs</a>
-		</li>
-		<li>
-			<a href="#csontact">Contact</a>
-		</li>
+		
 	</ul>
 	
 	<!-- Slider -->
@@ -65,27 +53,12 @@
 	    <ul class="slides">
       <li>
         <img src="images/techcrunch.png"> 
-        <div class="caption center-align">
-          <h2>Our Favourite Blogs!</h2>
-          <h5 class="light grey-text text-lighten-3
-			hide-on-small-only">Here's our small slogan.</h5>
-        </div>
       </li>
       <li>
         <img src="images/gizmodo.png"> 
-        <div class="caption left-align">
-          <h2>Left Aligned Caption</h2>
-          <h5 class="light grey-text text-lighten-3
-		  hide-on-small-only">Here's our small slogan.</h5>
-        </div>
       </li>
       <li>
         <img src="images/readwrite.png"> 
-        <div class="caption right-align">
-          <h2>Right Aligned Caption</h2>
-          <h5 class="light grey-text text-lighten-3
-		  hide-on-small-only">Here's our small slogan.</h5>
-        </div>
       </li>
     </ul>
 	</section>
@@ -100,7 +73,7 @@
 					<div class="input-field">
 						<input class="white grey-text autocomplete" 
 						id="autocomplete-input"
-						placeholder="Techcrunch, Readwrite, Endgadget, etc..." >
+						placeholder="Techcrunch, Readwrite, Endgadget" >
 				</div>
 			</div>
 		</div>
@@ -109,59 +82,55 @@
 	<!-- Icon Boxes Section -->
 	<section class="section section-icons grey lighten-4 center">
 		<div class="container">
-			<div class="row">
 				
-				<div class="col s12 m6">
-					<div class="card-panel">
-						<i class="material-icons large light-blue-text">store</i>
-						<a href="store/store_login.php">
-							<h4> Blogga Merchandise</h4>
-						</a>
-						<p> Lorum ipsum sum </p>
-					</div>
-				</div>
-				<div class="col s12 m6">
+				
+				<div class="col ">
 					<div class="card-panel">
 						<i class="material-icons large light-blue-text">favorite</i>
 						<a href="favorites/favorite_articles.php">
 							<h4>Favourite Articles</h4>
 						</a>
-						<p> Lorum ipsum sum </p>
 					</div>
 				</div>
-			</div>
 		</div>
 	</section>
 	
 	<!-- Popular Blogs Section -->
-	<section id="popular" class="section sectino-popular scrollspy">
+	<section id="popular" class="section section-popular scrollspy">
 		<div class="container">
 			<div class="row">
 				<h4 class="center">
-					<span class="blue-text">Popular </span>
+					Popular 
 					Blogs
 				</h4>
 				<div class="col s12 m4">
 					<div class="card">
 						<div class="card-image">
 							<img src="images/techcrunch.png"/>
-							<span class="card-title"> Techcrunch</span>
 						</div>
 						<div class="card-content">
-							Lorum pisum sum sdfgf dsdf gfrdes dfghg fdsdfgbh
-							dfg rtgyh gtrt ghgtr tgyhj gtrt ghjg trtgyhj.
+						TechCrunch is an American online 
+						publisher focusing on the tech 
+						industry. The company specifically 
+						reports on the business related to 
+						tech, technology news, analysis of 
+						emerging trends in tech, and 
+						profiling of new tech businesses 
+						and products. 
 						</div>
 					</div>
 				</div>
 				<div class="col s12 m4">
 					<div class="card">
 						<div class="card-image">
-							<img src="images/gizmodo.png"/>
-							<span class="card-title"> Gizmodo</span>
+							<img src="images/gizmodo.jpg"/>
 						</div>
 						<div class="card-content">
-							Lorum pisum sum sdfgf dsdf gfrdes dfghg fdsdfgbh
-							dfg rtgyh gtrt ghgtr tgyhj gtrt ghjg trtgyhj.
+							Gizmodo  is a design, technology, 
+							science and science fiction website.
+							It was originally launched as part of 
+							the Gawker Media network run by Nick 
+							Denton, and runs on the Kinja platform.
 						</div>
 					</div>
 				</div>
@@ -169,11 +138,16 @@
 					<div class="card">
 						<div class="card-image">
 							<img src="images/readwrite.png"/>
-							<span class="card-title"> Readwrite</span>
 						</div>
-						<div class="card-content">
-							Lorum pisum sum sdfgf dsdf gfrdes dfghg fdsdfgbh
-							dfg rtgyh gtrt ghgtr tgyhj gtrt ghjg trtgyhj.
+						<div class="card-content text-justify">
+						ReadWrite is a Web technology blog launched 
+						in 2003. RW covers Web 2.0 and Web 
+						technology in general, and provides 
+						industry news, reviews, and analysis.
+						 Founded by Richard MacManus, Technorati 
+						 ranked ReadWriteWeb at number 12 in its
+						 list of top 100 blogs worldwide, as of 
+						 October 9, 2010.
 						</div>
 					</div>
 				</div>
@@ -188,62 +162,21 @@
 				<div class="col s12">
 					<h4>Follow Blogga</h4>
 					<h6> Follow us on Social Media!</h6>
-					<a href="#" class="white-text">
+					<a href="https://www.facebook.com/" class="white-text">
 						<i class="fab fa-facebook fa-4x"></i>
 					</a>
-					<a href="#" class="white-text">
+					<a href="https://twitter.com/home" class="white-text">
 						<i class="fab fa-twitter fa-4x"></i>
 					</a>
-					<a href="#" class="white-text">
+					<a href="https://www.linkedin.com/" class="white-text">
 						<i class="fab fa-linkedin fa-4x"></i>
 					</a>
-					<a href="#" class="white-text">
-						<i class="fab fa-google-plus fa-4x"></i>
-					</a>
+
 				</div>
 			</div>
 		</div>		
 	</section>
 	
-	<!-- Contact Section -->
-	<section id="contact" class="section section-contact scrollspy">
-		<div class="container">
-			<div class="row">
-				<div class="col s12 m6">
-					<div class="card-panel light-blue white-text center">
-						<i class="material-icons">email</i>
-						<h5>Contact Us</h5>
-					</div>
-					<ul class="collection with-header">
-						<li class="collection-header">
-							<h4> Location </h4>
-						</li>
-						<li class="collection-item">
-							Blogga Agency
-						</li>
-						<li class="collection-item">
-							123, Blogga Street, Blogville, Blog City.
-						</li>
-					</ul>
-				</div>
-				<div class="col s12 m6">
-					<div class="card-panel grey lighten-3">
-						<h5> Please fill out this form</h5>
-							<div class="input-field">
-								<input type="text" placeholder="Name">
-							</div>
-							<div class="input-field">
-								<input type="text" placeholder="Email">
-							</div>
-							<div class="input-field">
-								<textarea class="materialize-textarea" placeholder="Message"></textarea>
-							</div>
-							<input type="submit" value="Submit" class="btn">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 	
 	<!-- Footer -->
 	<footer class="section light-blue darken-2 white-text center">
@@ -300,72 +233,7 @@
 		// Scrollspy
 		const ss = document.querySelectorAll('.scrollspy');
 		M.ScrollSpy.init(ss, {});
-	
 	</script>
-	
 </body>
 </html>
 
-	<!-- Gallery Section 
-	<section id="gallery" class="section section-gallery scrollspy">
-		<div class="container">
-			<h4 class="center">
-				<span class="light-blue-text">Photo</span>Gallery
-			</h4>
-			<div class="row">
-				<div class="col s12 m3">
-					<img src="https://source.unsplash.com/1600x900/?blog"
-						alt="beach" class="materialboxed responsive-img">
-				</div>
-				<div class="col s12 m3">
-					<img src="https://source.unsplash.com/1600x900/?technology"
-						alt="beach" class="materialboxed responsive-img">
-				</div>
-				<div class="col s12 m3">
-					<img src="https://source.unsplash.com/1600x900/?ai"
-						alt="beach" class="materialboxed responsive-img">
-				</div>
-				<div class="col s12 m3">
-					<img src="https://source.unsplash.com/1600x900/?future,iot"
-						alt="beach" class="materialboxed responsive-img">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col s12 m3">
-					<img src="https://source.unsplash.com/1600x900/?future,transport"
-						alt="beach" class="materialboxed responsive-img">
-				</div>
-				<div class="col s12 m3">
-					<img src="https://source.unsplash.com/1600x900/?technology,future"
-						alt="beach" class="materialboxed responsive-img">
-				</div>
-				<div class="col s12 m3">
-					<img src="https://source.unsplash.com/1600x900/?ai,iot,tech"
-						alt="beach" class="materialboxed responsive-img">
-				</div>
-				<div class="col s12 m3">
-					<img src="https://source.unsplash.com/1600x900/?future,iot,ai,android"
-						alt="beach" class="materialboxed responsive-img">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col s12 m3">
-					<img src="https://source.unsplash.com/1600x900/?future,space"
-						alt="beach" class="materialboxed responsive-img">
-				</div>
-				<div class="col s12 m3">
-					<img src="https://source.unsplash.com/1600x900/?space,ai"
-						alt="beach" class="materialboxed responsive-img">
-				</div>
-				<div class="col s12 m3">
-					<img src="https://source.unsplash.com/1600x900/?robot"
-						alt="beach" class="materialboxed responsive-img">
-				</div>
-				<div class="col s12 m3">
-					<img src="https://source.unsplash.com/1600x900/?future,iot,space"
-						alt="beach" class="materialboxed responsive-img">
-				</div>
-			</div>
-		</div>
-	<section>	
-	-->
